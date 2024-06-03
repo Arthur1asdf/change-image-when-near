@@ -1,0 +1,42 @@
+body {
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+  /* we are seperating everything into grids
+  we then  use align items to center it vertically and 
+  justify items to center it horizontally
+  NOTE: this is just for grid display ai and ji will
+  interact diff based on the type of display */
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.boxContainingBocchiPics {
+  width: 450px;
+  height: 400px;
+  background-image: url("/images/hitori-gotou-happy.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.containerSurroundingBox:hover .boxContainingBocchiPics {
+  background-image: url("/images/hitori-gotou-nope.webp");
+}
+.containerSurroundingBox:hover .boxContainingBocchiPics:hover {
+  width: 450px;
+  height: 400px;
+  background-image: url("/images/hitori-gotou-ripe-mangos.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.containerSurroundingBox {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transform: perspective(500px) rotateX(var(--yAngle, 0deg))
+    rotateY(var(--xAngle, 0deg));
+}
