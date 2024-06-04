@@ -9,30 +9,33 @@ body {
   display: grid;
   align-items: center;
   justify-items: center;
+  background-color: black;
 }
 
 .boxContainingBocchiPics {
   width: 450px;
   height: 400px;
-  background-image: url("/images/hitori-gotou-happy.webp");
+  background-image: url("/images/star-eye-bocchi.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .containerSurroundingBox:hover .boxContainingBocchiPics {
-  background-image: url("/images/hitori-gotou-nope.webp");
+  background-image: url("/images/hitori-gotou-nope.jpg");
 }
 .containerSurroundingBox:hover .boxContainingBocchiPics:hover {
   width: 450px;
   height: 400px;
-  background-image: url("/images/hitori-gotou-ripe-mangos.webp");
+  background-image: url("/images/ripe-mango-bocchi.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  transition-delay: 0.3s;
 }
 .containerSurroundingBox {
-  width: 700px;
-  height: 700px;
+  width: 900px;
+  height: 750px;
+  border-radius: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
