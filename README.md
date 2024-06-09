@@ -1,13 +1,14 @@
  The image flips left and right based on what side of the screen you are on. When the mouse is near the image the image changes and when the mouse is on top of the image it changes again. When image is hovered over a couple of seconds it changes to a gif. It is just Bocchi and her personal space lol.
 
 This is base image
-![Screenshot 2024-06-09 112448](https://github.com/Arthur1asdf/change-image-when-near-bocchi/assets/138413173/6ebe416a-10e7-479d-b414-fea9bbf45db0)
+![Screenshot 2024-06-09 113710](https://github.com/Arthur1asdf/change-image-when-near-bocchi/assets/138413173/b876ccfc-469b-420c-8eba-4322ec3ec693)
 
 ![Screenshot 2024-06-09 112501](https://github.com/Arthur1asdf/change-image-when-near-bocchi/assets/138413173/b1f9fb55-8c47-4c18-9b57-0ef23388cb09)
 
 Changes to this image when you get in personal space
 
 ![Screenshot 2024-06-09 112512](https://github.com/Arthur1asdf/change-image-when-near-bocchi/assets/138413173/182acca1-6e78-4a7e-adb5-104470354033)
+
 ![Screenshot 2024-06-09 112522](https://github.com/Arthur1asdf/change-image-when-near-bocchi/assets/138413173/04fc44a4-ca55-4a46-8bb3-0f59e9c475d2)
 
 
